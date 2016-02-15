@@ -1,48 +1,192 @@
 <!DOCTYPE html>
-<html>
+<!-- Template by Quackit.com -->
+<html lang="en">
 <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-<!-- your webpage info goes here -->
+    <title>Cloud Aggies</title>
 
-    <title>Project Management - Group 11</title>
-	
-	<meta name="author" content="your name" />
-	<meta name="description" content="" />
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-<!-- you should always add your stylesheet (css) in the head tag so that it starts loading before the page html is being displayed -->	
-	<link rel="stylesheet" href="style.css" type="text/css" />
-	
+    <!-- Custom CSS: You can use this stylesheet to override any Bootstrap styles and/or apply your own styles -->
+    <link href="css/custom.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
+
 <body>
 
-<!-- webpage content goes here in the body -->
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Logo and responsive toggle -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                	<span class="glyphicon glyphicon-fire"></span>
+                	Logo
+                </a>
+            </div>
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Products</a>
+                    </li>
+        					<li>
+                    <a href="#">Services</a>
+        					</li>
+                </ul>
 
-	<div id="page">
-		<div id="logo">
-			<h1><a href="/" id="logoLink">Project Management - Group11</a></h1>
-		</div>
-		<div id="nav">
-			<ul>
-				<li><a href="#/home.html">Home</a></li>
-				<li><a href="#/about.html">About</a></li>
-				<li><a href="#/contact.html">Contact</a></li>
-			</ul>	
-		</div>
-		<div id="content">
-			<h2>Home</h2>
-			<p>
-				Welcome to the webpage of Group 11! 
-				Watch out , contents coming soon!
-			</p>
-			<p> 
-				Cloud computing, often referred to as simply “the cloud,” is the delivery of on-demand computing resources—everything from applications to data centres—over the Internet on a pay-for-use basis.
-			</p>
-		</div>
-		<div id="footer">
-			<p>
-				Webpage made by <a href="/" target="_blank">Group 11</a>
-			</p>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+	<div class="jumbotron feature">
+		<div class="container">
+			<h1  style="color:black"><span class="glyphicon glyphicon-equalizer"></span> Cloud Aggies</h1>
+			<p style="color:black">CloudAggies is a reputed International IT consulting firm headquartered in College Station, Texas.
+        It provides cutting edge solutions for complex business problems.
+        It has been the market leader in IT consulting for over 30 years,
+        constantly researching about new technologies in the field of Information Technology.</p>
 		</div>
 	</div>
+
+    <!-- Content -->
+    <div class="container">
+
+        <!-- Heading -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Document Download
+                </h1>
+                <p>Please click the below images to download appropriate documents.</p>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Feature Row -->
+        <div class="row">
+            <article class="col-md-4 article-intro">
+                <a href="documents\deliverable_2\Organizational Description.docx" download>
+                    <center><img class="img-responsive img-rounded" src="images\document.jpeg" alt="" width="100" height="100"></center>
+                </a>
+                <h3>
+                    <center><a href="documents\deliverable_2\Organizational Description.docx" download>Organizational Description</a></center>
+                </h3>
+                <p>Organizational Description document holds the details about Cloud Aggies, it's latest project and it's organizational chart.</p>
+            </article>
+            <article class="col-md-4 article-intro">
+                <a href="documents\deliverable_2\Project_Charter_v1.docx" download>
+                    <center><img class="img-responsive img-rounded" src="images\document.jpeg" alt="" width="100" height="100"></center>
+                </a>
+                <h3>
+                    <center><a href="documents\deliverable_2\Project_Charter_v1.docx" download>Project Charter</a></center>
+                </h3>
+                <p>Project charter details various activities associated with Cloud Storage Implementation for Great Benefits.</p>
+            </article>
+
+            <article class="col-md-4 article-intro">
+                <a href="#">
+                    <center><img class="img-responsive img-rounded" src="images\document.jpeg" alt="" width="100" height="100"></center>
+                </a>
+                <h3>
+                    <center><a href="#">Project Scope</a></center>
+                </h3>
+                <p>Project Scope document explains the scope of Cloud Storage Implementation project.</p>
+            </article>
+        </div>
+        <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+	<footer>
+		<div class="footer-blurb">
+			<div class="container">
+        <!-- Heading -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Cloud Aggies Team
+                </h1>
+            </div>
+        </div>
+        <!-- /.row -->
+				<div class="row">
+					<div class="col-sm-3 footer-blurb-item">
+              <p>
+                <center><img class="img-responsive img-circle" src="images\Aarthi.jpg" alt="" width="200" height="200"></center>
+              </p>
+              <center><h4>Aarthi, Venkatesan</h4></center>
+					</div>
+					<div class="col-sm-3 footer-blurb-item">
+              <p>
+                <center><img class="img-responsive img-circle" src="images\Likita.jpg" alt="" width="200" height="200"></center>
+              </p>
+              <center><h4>Likita, Shetty</h4></center>
+					</div>
+					<div class="col-sm-3 footer-blurb-item">
+              <p>
+                <center><img class="img-responsive img-circle" src="images\Atif.jpg" alt="" width="200" height="200"></center>
+              </p>
+              <center><h4>Mohamed Atif, Tahir</h4></center>
+					</div>
+          <div class="col-sm-3 footer-blurb-item">
+              <p>
+                <center><img class="img-responsive img-circle" src="images\Saddam.jpg" alt="" width="200" height="200"></center>
+              </p>
+              <center><h4>Saddam Hussain, Mohamed Najeeb</h4></center>
+					</div>
+
+				</div>
+				<!-- /.row -->
+			</div>
+        </div>
+
+        <div class="small-print">
+        	<div class="container">
+        		<p><a href="#">Terms &amp; Conditions</a> | <a href="#">Privacy Policy</a> | <a href="#">Contact</a></p>
+        		<p>Copyright &copy; cloudaggies.tech 2016 </p>
+        	</div>
+        </div>
+	</footer>
+
+
+    <!-- jQuery -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+	<!-- IE10 viewport bug workaround -->
+	<script src="js/ie10-viewport-bug-workaround.js"></script>
+
+	<!-- Placeholder Images -->
+	<script src="js/holder.min.js"></script>
+
 </body>
+
 </html>
